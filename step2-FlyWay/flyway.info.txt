@@ -11,6 +11,9 @@ https://flywaydb.org/documentation/getstarted/
 Prerequisites
 Java 8, 9, 10, 11 or 12
 java -version
+https://dbeaver.io/ - for manipulations with DB
+
+
 
 Install
 https://flywaydb.org/documentation/usage/commandline/#download-and-installation
