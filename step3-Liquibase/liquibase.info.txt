@@ -1,0 +1,30 @@
+#Introduce
+https://www.liquibase.org/get-started/quickstart
+
+
+#Install
+https://github.com/liquibase/liquibase/releases
+https://github.com/liquibase/liquibase/releases/download/v4.12.0/liquibase-4.12.0.tar.gz
+
+./liquibase -version
+export PATH=$PATH:/home/vitalii/Work/Pers/db-migtation-tools/step3-Liquibase/liquibase-4.12.0
+liquibase -version
+
+#setup config file
+
+
+#Take a snapshot of your existing database
+liquibase --changeLogFile=db1_changelog.xml generateChangeLog
+
+#create a changelog
+
+#run migration
+liquibase update
+
+#rollback
+liquibase rollbackCount 1
+
+
+
+
+
