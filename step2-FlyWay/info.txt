@@ -1,0 +1,34 @@
+Why
+https://flywaydb.org/documentation/getstarted/why
+
+how to run
+https://flywaydb.org/documentation/getstarted/
+* commandline
+* API
+* maven
+* gradle
+
+Prerequisites
+Java 8, 9, 10, 11 or 12
+java -version
+
+Install
+https://flywaydb.org/documentation/usage/commandline/#download-and-installation
+wget -qO- https://repo1.maven.org/maven2/org/flywaydb/flyway-commandline/8.5.13/flyway-commandline-8.5.13-linux-x64.tar.gz | tar xvz && sudo ln -s `pwd`/flyway-8.5.13/flyway /usr/local/bin 
+
+Configure conf file
+flyway-8.5.13/conf/flyway.conf
+
+flyway info
+flyway validate
+flyway migrate
+flyway info
+flyway clean
+flyway migrate
+flyway info
+
+https://flywaydb.org/documentation/concepts/migrations
+
+#change some SQL
+flyway validate
+flyway migrate
