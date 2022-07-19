@@ -6,5 +6,5 @@ step2-FlyWay
 step3-Liquibase
 
 
-FlyWay VS Liquibase comparation
+<b>FlyWay VS Liquibase comparation</b>
 https://www.baeldung.com/liquibase-vs-flyway
